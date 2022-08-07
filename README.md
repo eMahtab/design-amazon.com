@@ -15,6 +15,13 @@
 11. Users should be able to track their shipment to see the current state of their order.
 
 
+![Amazon Design](ecommerce-design.PNG?raw=true)
+
+## Order Management :
+
+![Amazon Design](ecommerce-order-management.PNG?raw=true)
+
+
 ## Account, Customer, Guest, Member
 ```java
 // For simplicity, we are not defining getter and setter functions. The reader can
