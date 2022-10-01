@@ -18,8 +18,14 @@
 ![Amazon Design](ecommerce-design.PNG?raw=true)
 
 # Stroring Product : RDBMS or Document Database (e.g. MongoDB or DynamoDB) : 
-Ecommerce sites have different type of products, each having different set of attributes.
 
+Ecommerce sites have different type of products, each having different set of attributes.
+```
+Belts. Need a length attribute and a material attribute.
+Hats. Need a hat type attribute (i.e., snap back or elastic).
+Shoes. Need an attribute for lace length and the number of islets.
+Stickers. Need a height, width, and adhesive type attribute.
+```
 1. RDBMS : If we use RDBMS table(e.g. products) to store the Products, we will have lots of columns and most of the columns would be empty.
 2. RDBMS but storing the attrbutes in different table (each attribute of product will have one row in attributes table)
 3. The best way to store the products would be to store the Product as a document in the Document Database NoSQL (e.g. MongoDB)
